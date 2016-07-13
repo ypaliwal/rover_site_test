@@ -2721,6 +2721,7 @@ select {
 
   .header-fixed.navbar-fixed-top {
     position: relative; } }
+/* ======= Yash's Stylings ======= */
 .why {
   padding-top: 0px; }
   .why #whyHelper {
@@ -2800,14 +2801,12 @@ select {
     font-weight: 100;
     font-size: 22px;
     margin-top: 25px; }
-  #community .imgDiv {
-    /*height: 220px;*/ }
+  #community .first-img {
+    margin-top: 60px !important; }
   #community .mid-img {
-    position: relative;
-    top: 20px;
-    /*margin-top: 50px;*/ }
-  #community .mid-cap {
-    margin-top: 87px; }
+    margin-top: 0px !important; }
+  #community .first-cap {
+    margin-top: 57px; }
   #community .last-cap {
     margin-top: 44px; }
 

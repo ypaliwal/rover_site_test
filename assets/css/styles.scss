@@ -2755,6 +2755,13 @@ select {
 
 
 
+
+
+
+
+
+/* ======= Yash's Stylings ======= */ 
+
 .why {
   padding-top: 0px;
 
@@ -2762,10 +2769,6 @@ select {
     padding-top: 20px;
   }
 }
-
-
-
-
 
 .how_works {
   width: 100%;
@@ -2879,19 +2882,19 @@ select {
     
   }
 
-  .imgDiv {
-    /*height: 220px;*/
+  .first-img {
+    margin-top: 60px !important;
   }
 
   .mid-img {
-    position: relative;
-    top: 20px;
-    /*margin-top: 50px;*/
+    margin-top: 0px !important;
   }
 
-  .mid-cap {
-    margin-top: 87px;
+  .first-cap {
+    margin-top: 57px;
   }
+
+
 
   .last-cap {
     margin-top: 44px;
