@@ -21,7 +21,11 @@ $(document).ready(function() {
         return 'unknown';
       }
     }
-    console.log(getMobileOperatingSystem());
+    var deviceOS = getMobileOperatingSystem()
+
+    if(deviceOS == 'Android') {
+        $(".downloadLink").attr("href", "http://www.google.com/");
+    }
 
 
     /* ======= Twitter Bootstrap hover dropdown ======= */   
