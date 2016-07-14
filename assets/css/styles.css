@@ -2758,12 +2758,9 @@ select {
       font-size: 17px; }
     .how_works .hwinfopanels p {
       font-weight: 100;
-      font-size: 14px; }
+      font-size: 12px; }
     .how_works .hwinfopanels img {
       max-width: 80px; }
-    .how_works .hwinfopanels .services-item {
-      padding-left: 20%;
-      padding-right: 20%; }
 
 .how_works_top {
   width: 100%;
@@ -2820,24 +2817,5 @@ select {
     position: relative;
     margin: auto;
     margin-bottom: 40px !important; }
-
-@media (max-width: 767px) {
-  #hwtopClose {
-    position: absolute;
-    top: 75px !important;
-    right: 50px; }
-
-  #community .content {
-    height: 370px;
-    max-height: 370px;
-    margin: 0 10%; }
-
-  .community .col-item.center-item {
-    padding-right: 0px;
-    padding-left: 0px; } }
-@media (min-width: 768px) {
-  #community .content {
-    height: 380px;
-    max-height: 380px; } }
 
 /*# sourceMappingURL=styles.css.map */
