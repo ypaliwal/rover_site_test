@@ -2818,4 +2818,18 @@ select {
     margin: auto;
     margin-bottom: 40px !important; }
 
+@media (max-width: 767px) {
+  #community .content {
+    height: 370px;
+    max-height: 370px;
+    margin: 0 10%; }
+
+  .community .col-item.center-item {
+    padding-right: 0px;
+    padding-left: 0px; } }
+@media (min-width: 768px) {
+  #community .content {
+    height: 380px;
+    max-height: 380px; } }
+
 /*# sourceMappingURL=styles.css.map */
