@@ -2758,9 +2758,12 @@ select {
       font-size: 17px; }
     .how_works .hwinfopanels p {
       font-weight: 100;
-      font-size: 12px; }
+      font-size: 14px; }
     .how_works .hwinfopanels img {
       max-width: 80px; }
+    .how_works .hwinfopanels .services-item {
+      padding-left: 20%;
+      padding-right: 20%; }
 
 .how_works_top {
   width: 100%;
@@ -2819,6 +2822,11 @@ select {
     margin-bottom: 40px !important; }
 
 @media (max-width: 767px) {
+  #hwtopClose {
+    position: absolute;
+    top: 75px !important;
+    right: 50px; }
+
   #community .content {
     height: 370px;
     max-height: 370px;

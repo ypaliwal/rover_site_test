@@ -2820,11 +2820,16 @@ select {
 
     p {
       font-weight: 100;
-      font-size: 12px;
+      font-size: 14px;
     }
 
     img {
       max-width: 80px;
+    }
+
+    .services-item {
+      padding-left: 20%;
+      padding-right: 20%;
     }
   }
 }
@@ -2927,6 +2932,12 @@ select {
 
 
 @media (max-width: 767px) {
+  #hwtopClose {
+    position: absolute;
+    top: 75px !important;
+    right: 50px;
+  }
+
   #community .content {
     height: 370px;
     max-height: 370px;
