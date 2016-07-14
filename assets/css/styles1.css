@@ -2761,9 +2761,6 @@ select {
       font-size: 14px; }
     .how_works .hwinfopanels img {
       max-width: 80px; }
-    .how_works .hwinfopanels .services-item {
-      padding-left: 20%;
-      padding-right: 20%; }
 
 .how_works_top {
   width: 100%;
@@ -2834,7 +2831,10 @@ select {
 
   .community .col-item.center-item {
     padding-right: 0px;
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #mixpanelImg {
+    margin-bottom: 12px; } }
 @media (min-width: 768px) {
   #community .content {
     height: 380px;
@@ -2846,7 +2846,11 @@ select {
 @media (min-width: 992px) {
   #mixpanelImg {
     position: absolute;
-    left: 0px; } }
+    left: 0px; }
+
+  .hwinfopanels .services-item {
+    padding-left: 20%;
+    padding-right: 20%; } }
 @media (min-width: 1200px) {
   #mixpanelImg {
     position: absolute;

@@ -2827,10 +2827,6 @@ select {
       max-width: 80px;
     }
 
-    .services-item {
-      padding-left: 20%;
-      padding-right: 20%;
-    }
   }
 }
 
@@ -2949,6 +2945,10 @@ select {
     padding-left: 0px;
   }
 
+  #mixpanelImg {
+    margin-bottom: 12px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -2968,6 +2968,13 @@ select {
     position: absolute;
     left: 0px;
   }
+
+  .hwinfopanels {
+      .services-item {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+    }
 }
 
 @media (min-width: 1200px) {
