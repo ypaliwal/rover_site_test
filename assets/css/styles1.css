@@ -2818,6 +2818,15 @@ select {
     margin: auto;
     margin-bottom: 40px !important; }
 
+/*======== FAQ ==========*/
+.btnGroup {
+  margin-bottom: 20px !important; }
+  .btnGroup .btn {
+    margin-right: 15px; }
+
+.faqBtn:hover {
+  /*background-color: blue;*/ }
+
 @media (max-width: 767px) {
   #hwtopClose {
     position: absolute;
